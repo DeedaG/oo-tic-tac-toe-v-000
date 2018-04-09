@@ -121,9 +121,10 @@ def over?
 end
 
 
-def winner(index)
-
-  if won? == false
+def winner
+  index = []
+  index = won?
+  if index == false
     return nil
   else
     if @board[index[0]] == "X"
