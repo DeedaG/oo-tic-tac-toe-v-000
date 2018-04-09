@@ -127,7 +127,7 @@ def winner
   if index == false
     return nil
   else
-    if @board[index[1]] == "X"
+    if @board[index[4]] == "X"
       return "X"
     else
       return "O"
