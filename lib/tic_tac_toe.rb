@@ -122,7 +122,7 @@ end
 
 
 def winner
-  
+
   if won? == false
     return nil
   else
