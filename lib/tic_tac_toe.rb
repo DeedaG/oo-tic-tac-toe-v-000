@@ -121,7 +121,7 @@ def over?
 end
 
 
-def winner
+def winner(index)
 
   if won? == false
     return nil
